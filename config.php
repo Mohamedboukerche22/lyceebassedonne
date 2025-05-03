@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$host = 'sql313.hstn.me';
-$dbname = 'mseet_38835548_school_management';
-$username = 'mseet_38835548';
-$password = 'X7hNwHyfKrJo';
+$host = '';
+$dbname = 'basee';
+$username = 'root';
+$password = 'password';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
